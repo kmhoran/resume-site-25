@@ -1,28 +1,37 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router";
+import { VscRocket } from "react-icons/vsc";
 
 const Header = () => {
   return (
     <header>
-      <h1>My Resume</h1>
+      <VscRocket className="header-icon" />
       <nav>
         <ul>
           <li>
-            <Link to="/">Home</Link>
+            <NavLink to="/">Home</NavLink>
           </li>
           <li>
-            <Link to="/experience">Experience</Link>
+            <NavLink to="/bio">Bio</NavLink>
           </li>
           <li>
-            <Link to="/education">Education</Link>
+            <NavLink to="/experience">Experience</NavLink>
+          </li>
+          <li>
+            <NavLink to="/projects">Projects</NavLink>
           </li>
           <li>
             <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
-              Download Resume
+              Resume
             </a>
           </li>
         </ul>
       </nav>
+      <div className="cta">
+        <NavLink to="/contact">
+          <button>Contact</button>
+        </NavLink>
+      </div>
     </header>
   );
 };

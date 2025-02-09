@@ -1,18 +1,24 @@
 import React from "react";
-import { Route, Switch } from "react-router-dom";
+import { Routes, Route } from "react-router";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Home from "./components/Home";
 import Experience from "./components/Experience";
 
+import DetailPageLayout from "./Layouts/DetailPageLayout";
+
 const App = () => {
   return (
     <div>
       <Header />
-      <Switch>
-        <Route exact path="/" component={Home} />
-        <Route path="/experience" component={Experience} />
-      </Switch>
+      <Routes>
+        <Route path="/">
+          <Route index element={<Home />} />
+        </Route>
+        <Route element={<DetailPageLayout />}>
+          <Route path="/experience" element={<Experience />} />
+        </Route>
+      </Routes>
       <Footer />
     </div>
   );
