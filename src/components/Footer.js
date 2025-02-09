@@ -1,0 +1,9 @@
+const Footer = () => {
+  return (
+    <footer>
+      <p>&copy; 2025 Kevin Horan</p>
+    </footer>
+  );
+};
+
+export default Footer;
