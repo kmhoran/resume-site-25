@@ -172,3 +172,41 @@ ul {
     color: #333;
     font-style: italic;
 }
+.detail-page-frame {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.detail-page-frame section {
+    width: 98%;
+}
+.experience-card li {
+    list-style: circle;
+    margin-left: 50px;
+}
+
+.experience-card .topline {
+    display: flex;
+    flex-direction: row;
+}
+.experience-card .logo-frame {
+    margin-right: 20px;
+}
+.experience-card img {
+    width: 100px;
+}
+.experience-card .topline-text {
+    font-style: italic;
+    margin: 0;
+}
+.detail-page-frame {
+    margin-bottom: 20px;
+}
+.detail-page-frame .biography {
+    width: 60%;
+}
+
+.detail-page-frame .biography img {
+    width: 200px;
+    margin-top: 20px;
+}

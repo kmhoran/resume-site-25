@@ -4,6 +4,7 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Home from "./components/Home";
 import Experience from "./components/Experience";
+import Biography from "./components/Biography";
 
 import DetailPageLayout from "./Layouts/DetailPageLayout";
 
@@ -17,6 +18,7 @@ const App = () => {
         </Route>
         <Route element={<DetailPageLayout />}>
           <Route path="/experience" element={<Experience />} />
+          <Route path="/bio" element={<Biography />} />
         </Route>
       </Routes>
       <Footer />
