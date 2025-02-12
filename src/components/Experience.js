@@ -21,7 +21,6 @@ const Experience = () => {
           location="Culver City, Ca"
           bulletPoints={[
             "Lead a team of 5 engineers in architecting and deploying a microservices-based asset publication dashboard handling 50M+ updates per day, increasing on-time delivery of Prime Video assets by 40%.",
-            "Spearheaded the migration from monolithic architecture to serverless microservices on AWS, reducing operational costs by 35%.",
             "Designed an event-driven architecture to optimize real-time publication statuses, enabling <1m response time for partner studio insights.",
             "Identified tech debt costing team $50,000/month and spearheaded deprecation effort across multiple teams.",
             "Recognized as a bar-raising mentor for our summer intern and several junior engineers.",

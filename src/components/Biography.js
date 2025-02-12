@@ -52,12 +52,12 @@ const Biography = () => {
       </p>
       <br />
       <p>
-        Throughout my career, I've worked on everything from championing Domain
-        Driven Design that enable real-time publication systems to leading the
-        development of e-commerce dashboards that increased sales revenue by
-        20%. I've had the privilege of working with a wide range of technologies
-        including AWS, Azure, GCP, Kubernetes, and Java to name a few. My
-        technical skill set is as diverse as my experience, but I always
+        Throughout my career, I've worked on everything from championing
+        microservice architecture that enabled real-time publication systems to
+        leading the development of e-commerce dashboards that increased sales
+        revenue by 20%. I've had the privilege of working with a wide range of
+        technologies including AWS, Azure, GCP, Kubernetes, and Java to name a
+        few. My technical skill set is as diverse as my experience, but I always
         prioritize writing clean, maintainable code that solves real-world
         problems efficiently.
       </p>

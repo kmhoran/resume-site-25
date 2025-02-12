@@ -17,9 +17,9 @@ const Header = () => {
           <li>
             <NavLink to="/experience">Experience</NavLink>
           </li>
-          <li>
+          {/* <li>
             <NavLink to="/projects">Projects</NavLink>
-          </li>
+          </li> */}
           <li>
             <a
               href="resources/resume.pdf"
