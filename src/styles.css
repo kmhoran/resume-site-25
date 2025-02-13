@@ -210,6 +210,30 @@ ul {
     width: 200px;
     margin-top: 20px;
 }
+.contact-frame {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.contact-frame #google-form {
+    width: 640px;
+    height: 915px;
+}
+
+.contact-frame #platform-links {
+    width: 640px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: xxx-large;
+    color: black;
+    text-decoration-color: none;
+    margin-top: 20px;
+}
 
 /* Mobile-specific styles (max-width 768px) */
 @media (max-width: 768px) {
@@ -283,6 +307,10 @@ ul {
 
     #root {
         margin-bottom: 80px;
+    }
+    .contact-frame #platform-links,
+    .contact-frame #google-form {
+        width: 100%;
     }
 
 }

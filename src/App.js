@@ -5,6 +5,7 @@ import Footer from "./components/Footer";
 import Home from "./components/Home";
 import Experience from "./components/Experience";
 import Biography from "./components/Biography";
+import Contact from "./components/Contact";
 
 import DetailPageLayout from "./Layouts/DetailPageLayout";
 
@@ -19,6 +20,7 @@ const App = () => {
         <Route element={<DetailPageLayout />}>
           <Route path="/experience" element={<Experience />} />
           <Route path="/bio" element={<Biography />} />
+          <Route path="/contact" element={<Contact />} />
         </Route>
       </Routes>
       <Footer />
